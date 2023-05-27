@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* comentario */
+
+header{
+    
+    font-family: roboto;
+}
+
+html{
+    min-height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #134E5E, #71B280);
+    background-repeat: no-repeat;
+}
+
+header>center>h1{
+    color: #fff;
+}
+
+header>div>label{
+    color: #fff;
+    align-content: center;
+    
+}
+
+header>div>input{
+    background-color: #F8F8FF;
+    border-radius: 6px;
+    width: 20rem;
+    border: 1px;
+
+}
+
+header>div>button{
+    background-color: #F8F8FF;
+    border-radius: 15px;
+    width: 8rem;
+    height: 4rem;
+
+}
+
+header>div>select{
+    background-color: #F8F8FF;
+    border-radius: 6px;
+    width: 20rem;
+
+}
+
+.div1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.sendb{
+    border-radius: 15px;
+    width: 10rem;
+    height: 2rem;
+    background-color: #FA9734;
+    border: 0px;
+    transition: 0.9s;
+    box-shadow: 900px;
+    color: #F8F8FF;
+    margin-top: 1rem;
+}
+
+.sendb:hover{
+    background-color: #E36824;
+    color: #F8F8FF;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+    transform:  scale(1.2);
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+.inp{
+    text-align: center;
+    font-family: roboto;
+    padding: 7px;
+    transition: 0.3s;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.inp:focus{
+    transform:  scale(1.1);
+}
+
+.opt{
+    color: #F8F8FF;
+}
